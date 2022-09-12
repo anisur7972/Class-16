@@ -1,0 +1,133 @@
+/* Common Css   */
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+/* Header Section Css Start  */
+.header-section{
+    background-color: #0f1342;
+}
+.header-logo img{
+    width: 70px;
+    height: auto;
+    line-height: 70px;
+}
+.header-logo {
+    line-height: 60px;
+}
+li.nav-item {
+    padding: 0 5px;
+}
+.nav-header{
+    text-align: right;
+}
+.menu .nav-item a{
+    color: #fff;
+}
+   
+/* Header Section Css End  */
+
+/* Banner Section Css Start  */
+.banner-section{
+    background-image: url(img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-caption {
+    margin-top: 150px;
+}
+.banner-caption p {
+    max-width: 750px;
+    margin: 30px auto;
+}
+/* Banner Section Css End */
+
+/* Team Section Css Start  */
+.team-section{
+    background-color: #bac1f3;
+    padding: 100px 0 50px;
+}
+.team-box img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.team-content {
+    max-width: 200px;
+}
+.team-content h5,p{
+    text-align: center;
+}
+.team-content button {
+    display: inline-block;
+    margin-left: 30px;
+}
+.team-content p {
+    max-width: 200px;
+}
+
+/* Team Section Css End */
+
+/* About Section Css Start  */
+
+.about-section{
+    background-color: #c2d4ea;
+    padding: 80px 0 100px;
+}
+.about-section h2{
+    margin-bottom: 30px;
+}
+.about-img img {
+    width: 150px;
+    margin-bottom: 25px;
+}
+.about-content p{
+    text-align: left;
+}
+.about-content-bottom p{
+    text-align: left;
+}
+.about-right h4, .one, .two, .three{
+    text-align: left;
+}
+.about-right .three {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+/* About Section Css End  */
+
+/* Contact Section Css Start  */
+
+.contact-section{
+    background-color: #f5f5f5;
+}
+.contact-section p {
+    font-size: 40px;
+}
+/* Contact Section Css End */
+
+/* Footer Section Css Start  */
+.footer-section{
+    background-color: #0062d3;
+}
+.footer-section p{
+    margin-bottom: 0;
+}
+/* Footer Section Css End */
+
+/* Video Assignment Css Start  */
+.video-assignment{
+    background-color:#235272 ;
+    text-align: center;
+    padding: 20px;
+}
+.video-assignment a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+/* Video Assignment Css End */

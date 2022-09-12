@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Section Css Start */
+.header-section{
+    background-color:#2991de;
+    /* color: #fff; */
+}
+.header-logo img {
+    width: 120px;
+    height: auto;
+}
+.menu-wrapper {
+    text-align: right;
+}
+.menu-wrapper .menu{
+    margin-bottom: 0;
+}
+.menu-wrapper .menu li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu-wrapper .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    line-height: 67px;
+    transition:all .4s ease;
+}
+.menu-wrapper .menu li a:hover{
+    background-color: #2980b9;
+}
+/* Header Section Css End */
+
+/* Banner Section Css Start  */
+
+.banner-section{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0;
+
+}
+.banner-caption h2 {
+    background-color: rgba(0,0,0,.5);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.banner-caption p {
+    background-color: rgba(41, 145, 222,.5);
+    font-size: 40px;
+    max-width: 456px;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Banner Section Css End  */
+
+/* About Section Css Start  */
+
+.about-section{
+    background-color: #ebeff1;
+}
+.about-caption p {
+    margin-bottom: 0;
+    max-width: 635px;
+    margin: auto;
+}
+/* About Section Css End */
+
+/* Srvice Section Css Start  */
+.service-item {
+    padding: 15px 0px;
+}
+.service-item span {
+    font-size: 35px;
+    background-color: #2991de;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 12px;
+}
+/* Srvice Section Css End */
+
+/* Blog Section Css Start  */
+.blog-right .menu{
+    list-style-type: none;
+    margin-bottom: 0;
+}
+.blog-right li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+}
+/* Blog Section Css End */
+
+/* Contact Section Start  */
+
+label{
+    margin-bottom: 10px;
+}
+/* Contact Section End */
+
+/* Footer Section Start  */
+
+.footer-section p {
+    margin-bottom: 0;
+}
+.footer-menu {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+}
+.footer-menu li {
+    display: inline-block;
+}
+.footer-menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding-left: 40px;
+}
+/* Footer Section End */
